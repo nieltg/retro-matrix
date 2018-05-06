@@ -40,7 +40,7 @@ OBJ_OBJS := \
 		$(patsubst %.s,%.o, \
 			$(filter-out $(SRC_DIR)/manual/%,$(SRC_OBJS)))))
 
-# Tools 
+# Tools
 
 LD := ld86 -d -M
 AS := as86 -u

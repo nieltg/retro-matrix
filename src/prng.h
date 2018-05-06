@@ -11,4 +11,3 @@ unsigned prng_gen (void);
 unsigned prng_gen_range (unsigned a, unsigned b);
 
 #endif
-
