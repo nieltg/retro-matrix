@@ -7,8 +7,8 @@
 unsigned prng_seed = 0xFF;
 
 /*
- * http://stackoverflow.com/questions/19083566/
- * what-are-the-better-pseudo-random-number-generator-than-the-lcg-for-lottery-sc
+ * What are the better (P)RNG than the LCG for lottery scheduler?
+ * https://stackoverflow.com/a/19083740/9186433
  */
 
 unsigned _prng_temper (unsigned x)
