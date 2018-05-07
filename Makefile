@@ -9,6 +9,7 @@ SRC_DIR := src
 SRC_CTRL_DIR := $(SRC_DIR)/_ctrl
 
 FLOPPY_IMG := $(OUT_DIR)/floppy.img
+FLOPPY_IMG_GZ := $(FLOPPY_IMG).gz
 
 BOOTLD_SRC := $(SRC_CTRL_DIR)/loader.asm
 
@@ -51,7 +52,11 @@ NASM := nasm
 
 .PHONY: all clean
 
-all: $(FLOPPY_IMG)
+all: $(FLOPPY_IMG_GZ)
+
+$(FLOPPY_IMG_GZ): $(FLOPPY_IMG)
+	@echo " gzip: $@"
+	@gzip -9 -c $< > $@
 
 $(FLOPPY_IMG): $(BOOTLD_OBJ) $(KERNEL_BIN)
 	@echo " dd: floppy.img <- /dev/zero"
