@@ -20,7 +20,7 @@ void kbd_init (void)
 {
 	/*
 	 * http://inglorion.net/documents/tutorials/x86ostut/keyboard
-	 * http://wiki.osdev.org/Interrupt_Vector_Table
+	 * https://wiki.osdev.org/Interrupt_Vector_Table
 	 */
 
 #asm

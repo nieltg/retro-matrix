@@ -6,7 +6,7 @@
  */
 
 /*
- * https://github.com/lkundrak/dev86/blob/master/libc/bcc/bcc_int.c
+ * https://github.com/lkundrak/dev86/blob/e62b351/libc/bcc/bcc_int.c
  */
 
 #asm

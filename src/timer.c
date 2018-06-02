@@ -26,8 +26,8 @@ void timer_init (void)
 	/*
 	 * http://inglorion.net/documents/tutorials/x86ostut/keyboard
 	 * http://osdever.net/bkerndev/Docs/pit.htm
-	 * http://wiki.osdev.org/Interrupt_Vector_Table
-	 * http://wiki.osdev.org/Programmable_Interval_Timer
+	 * https://wiki.osdev.org/Interrupt_Vector_Table
+	 * https://wiki.osdev.org/Programmable_Interval_Timer
 	 */
 
 	outb (0x43, 00110100b);

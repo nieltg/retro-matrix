@@ -7,7 +7,7 @@
 #include "anim.h"
 
 /*
- * https://github.com/cacalabs/libcaca/blob/master/src/cacademo.c
+ * https://github.com/cacalabs/libcaca/blob/f32c24a/src/cacademo.c
  */
 
 #define TRAIL_MIN (15)
