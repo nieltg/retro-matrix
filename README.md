@@ -77,5 +77,5 @@ The entry point executes [`kernel_main`](src/main.c#L10) routine which is writte
 - [Programmable Interval Timer - OSDev Wiki](https://wiki.osdev.org/Programmable_Interval_Timer)
 - [Bran's Kernel Development Tutorial: The Programmable Interval Timer](http://osdever.net/bkerndev/Docs/pit.htm)
 - [VGA/SVGA Video Programming - CRT Controller Registers](http://osdever.net/FreeVGA/vga/crtcreg.htm)
-- [c - What are the (P)RNG than the LCG for lottery scheduler? - Stack Overflow](https://stackoverflow.com/a/19083740/9186433)
+- [c - What are the better (P)RNG than the LCG for lottery scheduler? - Stack Overflow](https://stackoverflow.com/a/19083740/9186433)
 - [Reset vector - Wikipedia](https://en.wikipedia.org/wiki/Reset_vector)
