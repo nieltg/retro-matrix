@@ -67,7 +67,7 @@ The entry point executes [`kernel_main`](src/main.c#L10) routine which is writte
 
 [MIT](LICENSE)
 
-## Reference
+## References
 
 - [libcaca/cacademo.c at f32c24a &middot; cacalabs/libcaca](https://github.com/cacalabs/libcaca/blob/f32c24a10d9e3fa7bc00e681fcad5ae0ce1bfe8c/src/cacademo.c#L776)
 - [dev86/bcc_int.c at e62b351 &middot; lkundrak/dev86](https://github.com/lkundrak/dev86/blob/e62b35169cdcd13632ae353b1e5ffde7dec44201/libc/bcc/bcc_int.c)
